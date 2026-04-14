@@ -20,5 +20,5 @@ Este projeto tem com objetivo demonstrar, em ambiente controlado, a execução d
 - IP Metasploitable: 192.168.1.3
 **Obs.** Os IPs foram configurados manualmente.
 
-[Configuração REDE KALI](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/kali_rede001.png)
-[Configuração REDE Metasploitable](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/metasploitable_rede001.png)
+* [Configuração REDE KALI](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/kali_rede001.png)
+* [Configuração REDE Metasploitable](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/metasploitable_rede001.png)
