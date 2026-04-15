@@ -41,4 +41,12 @@ Este projeto tem com objetivo demonstrar, em ambiente controlado, a execução d
 
     * Primeira fazer verificar qual as requisições que o site faz.
         [Requisição](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/ataque_formulario001.png)
+    * Segundo utilização ou criação de wordlist com nome de usuários e senhas
+    * Terceiro fazer ataque com medusa [Ataque](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/ataque_formulario002.png)
+    * Quarto obter o resultado [Resultado](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/ataque_formulario003.png)
 
+
+### Ataque enumeração SMB
+    * Primeiro rodar -> enum4linux 192.168.1.3
+    * Usar o medusa para conseguir a senha [medusa](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/ataque_smb001.png)
+    * Testando a senha [Senha](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/ataque_smb002.png)
