@@ -34,3 +34,11 @@ Este projeto tem com objetivo demonstrar, em ambiente controlado, a execução d
     - O comando acima funciona como: medusa é o app, o -h informa o alvo, -u msfadmin informa que irá atrás do usuário msfadmin, caso eu tivesse uma lista passaria o -U lista_usuarios.txt
       -P lista_senha.txt é a lista de password e o -M ftp informa o serviço que será o alvo.
 * [MEDUSA](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/ataque_medusa001.png)
+
+
+
+### Ataque de Força Bruta em Formulários de Login Web
+
+    * Primeira fazer verificar qual as requisições que o site faz.
+        [Requisição](https://github.com/lfralipe/RCHLCiberseguranca/blob/main/ataque_formulario001.png)
+
